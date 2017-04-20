@@ -1,0 +1,24 @@
+{
+  "name": "ANGULAR-OFFER",
+  "version": "1.0.0",
+  "description": "* 学会响应式在不同的环境中如何使用\r * 学会整合各种框架\r * 了解实际的开发流程\r ## 如何区分不同的项目环境\r * 开发环境\r ##### src  ==>>  dist\r * 测试环境\r ##### src  ==>>  test\r * 生产环境\r ##### dist  ==>>  iis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-uglify": "^2.1.2",
+    "open": "^0.0.5"
+  }
+}

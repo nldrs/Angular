@@ -1,0 +1,29 @@
+{
+  "name": "offer",
+  "description": "求职的网站",
+  "main": "",
+  "keywords": [
+    "angular",
+    "gulp"
+  ],
+  "authors": [
+    "nldrs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "angular": "^1.6.4"
+  },
+  "devDependencies": {
+    "angular-ui-router": "ui-router#^0.4.2",
+    "angular-route": "^1.6.4"
+  }
+}

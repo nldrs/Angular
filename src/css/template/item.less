@@ -1,0 +1,121 @@
+.m-list{
+    border-top:1px solid #E2E2E6;
+    .m-list-content{
+        padding:0;
+        li{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            padding: .2rem;
+            border-bottom:1px solid #ddd;
+            .U-listImg{
+                img{
+                    width:1.64rem;
+                    height:1.64rem;
+                }
+            }
+            .U-listContent{
+                -webkit-box-flex:1;
+                -ms-flex:1;
+                flex:1;
+                margin-left: .2rem;
+                .U-listContentDetail{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                    flex-direction: column;
+                    -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                    justify-content: space-between;
+                    font-size: 20px;
+                    height:1.64rem;
+                    .U-listContentDetail_1{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                        justify-content: space-between;
+                        p{
+                            font-size: .36rem;
+                            color:#333;
+                            .listkong{
+                                margin-left:.12rem;
+                            }
+                        }
+                    }
+                    .U-listContentDetail_2{
+                        display: flex;
+                        justify-content: space-between;
+                        .U-listContentDetail-title{
+                            font-size: .32rem;
+                            color:#000;
+                        }
+                        .shareLink{
+                            display: block;
+                            font-size:.26rem;
+                            color:#FF4F00;
+                            width:1.56rem;
+                            height:.5rem;
+                            text-align: center;
+                            line-height: .5rem;
+                            border-radius:.2rem;
+                            border:1px solid #FF4F00;
+                            letter-spacing: .16rem;
+                            padding-left:.1rem;
+                            &.on{
+                                background:#09a925;
+                                color:#fff;
+                                border:none;
+                            }
+                        }
+                    }
+                    .U-listContentDetail_3{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                        justify-content: space-between;
+                        p:first-child{
+                            span:first-child{
+                                font-size:.42rem;
+                                color:#D70000;
+                                b{
+                                    font-size:.26rem;
+                                }
+                            }
+                            s{
+                                font-size:.32rem;
+                                color:#757575;
+                                margin-left:.08rem;
+                            }
+                        }
+                        p:last-child{
+                            span{
+                                display: block;
+                                font-size:.26rem;
+                                color:#FF4F00;
+                                width:1.56rem;
+                                height:.5rem;
+                                text-align: center;
+                                line-height: .5rem;
+                                border-radius:.2rem;
+                                border:1px solid #FF4F00;
+                                letter-spacing: .06rem;
+                                &.on{
+                                    background:#FF4F00;
+                                    color:#fff;
+                                    border:none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

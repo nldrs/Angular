@@ -1,0 +1,31 @@
+<div class="m-list">
+    <ul class="m-list-content" >
+        <li ng-repeat="item in data">
+            <div class="U-listImg click_link">
+                <img ng-src="{{item.imgSrc}}">
+            </div>
+            <div class="U-listContent">
+                <div class="U-listContentDetail">
+                    <div class="U-listContentDetail_1 click_link">
+                        <p ng-bind="item.name">
+
+                        </p>
+                    </div>
+                    <div class="U-listContentDetail_2">
+                        <p class="U-listContentDetail-title">
+                            <span ng-bind="item.city"></span>
+                            <span ng-bind="item.industry"></span>
+                            <span ng-bind="item.companyName"></span>
+                        </p>
+                    </div>
+                    <div class="U-listContentDetail_3">
+                        <p class="click_link" ng-bind="item.date">
+                        </p>
+                        <p ng-bind="item.time">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
